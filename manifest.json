@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Tyme",
+  "version": "0.1.0",
+  "description": "Personal digital wellbeing and time tracker for Firefox",
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "idle"
+  ],
+
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Tyme Dashboard"
+  },
+
+  "background": {
+    "scripts": ["background/tracker.js"]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tyme@meapi.local"
+    }
+  }
+}
