@@ -23,5 +23,9 @@
     "gecko": {
       "id": "tyme@meapi.local"
     }
-  }
+  },
+
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ]
 }
